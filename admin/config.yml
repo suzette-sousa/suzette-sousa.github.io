@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: suzette-sousa/suzette-sousa.github.io
   branch: main
 media_folder: public/img
 public_folder: img
