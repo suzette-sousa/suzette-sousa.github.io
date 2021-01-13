@@ -15,7 +15,7 @@ const Project = () => {
                   <a>
                     {projet.thumbnail && <img src={`/img/${projet.thumbnail}`} alt={`${projet.altimg}`} />}
                     <h3 className="p-4 text-lg font-bold bg-gray-900 text-white">{projet.name}</h3>
-                    <p className="p-4">{projet.description}</p>
+                    {projet.description && <p className="p-4">{projet.description}</p>}
                   </a>
                 </Link>
               </li>

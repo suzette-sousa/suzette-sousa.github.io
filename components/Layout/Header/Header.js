@@ -11,7 +11,7 @@ class Header extends Component {
           </Link>
           <ul className="flex flex-wrap items-center">
             <li className="flex flex-wrap items-center mr-4">
-              <Link href="/">
+              <Link href="/cv">
                 <a className="link p-4 inline-block text-gray-400 hover:text-gray-900 hover:underline py-2 px-4">CV</a>
               </Link>
             </li>
