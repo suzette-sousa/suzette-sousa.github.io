@@ -2,16 +2,16 @@ import { attributes } from '../content/home.md';
 
 const Test = () => {
 
-    let { title, cats } = attributes;
+    let { title, projets } = attributes;
     return (
       <>
         <article>
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           
           <ul>
-            {cats.map((cat, k) => (
+            {projets.map((cat, k) => (
               <li key={k}>
-                <h2>{cat.name}</h2>
+                <h3>{cat.name}</h3>
                 <p>{cat.description}</p>
               </li>
             ))}
