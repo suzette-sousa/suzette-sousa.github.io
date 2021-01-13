@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.link--active {
+  @apply text-blue-800;
+}
 .bg-dark {
   .link--active {
     color: #fff;

@@ -5,10 +5,12 @@ class Layout extends Component {
   render () {
     const { children } = this.props
     return (
-      <div className='layout'>
+      <>
         <Header />
-        {children}
-      </div>
+        <div className="container mx-auto px-4">
+          {children}
+        </div>
+      </>
     );
   }
 }
