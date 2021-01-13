@@ -9,7 +9,7 @@ class Header extends Component {
           <Link href="/">
             <a href="/" className="link p-4 text-4xl tracking-wider font-extralight">Suzette Sousa</a>
           </Link>
-          <ul className="flex flex-wrap items-center">
+          <ul className="flex flex-wrap items-center text-xl">
             <li className="flex flex-wrap items-center mr-4">
               <Link href="/cv">
                 <a className="link p-4 inline-block text-gray-400 hover:text-gray-900 hover:underline py-2 px-4">CV</a>
