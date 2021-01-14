@@ -8,9 +8,11 @@ class Layout extends Component {
     return (
       <>
         <Header />
-        <div className="container mx-auto px-4 pb-12">
-          {children}
-        </div>
+        <main className="main">
+          <div className="container mx-auto px-4 pb-12">
+            {children}
+          </div>
+        </main>
         <Footer />
       </>
     );

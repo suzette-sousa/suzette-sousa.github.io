@@ -17,7 +17,12 @@ class Header extends Component {
             </li>
             <li className="flex flex-wrap items-center">
               <Link href="/projets">
-                <a className="link p-4 inline-block text-gray-400 hover:text-gray-900 hover:underline py-2 px-4">Portfolio</a>
+                <a className="link p-4 inline-block text-gray-400 hover:text-gray-900 hover:underline py-2 px-4">Réalisations</a>
+              </Link>
+            </li>
+            <li className="flex flex-wrap items-center">
+              <Link href="/skills">
+                <a className="link p-4 inline-block text-gray-400 hover:text-gray-900 hover:underline py-2 px-4">Skills</a>
               </Link>
             </li>
           </ul>

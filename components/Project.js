@@ -1,5 +1,5 @@
 const path = require('path');
-import { attributes } from '../content/home.md';
+import { attributes } from '../content/portfolio.md';
 import Link from './Link'
 const Project = () => {
 
@@ -7,7 +7,7 @@ const Project = () => {
     return (
       <>
         <article>
-          <h1 className="mt-10 mb-6 text-4xl uppercase tracking-wider font-extralight text-center">{title}</h1>
+          <h1 className="mb-6 text-4xl uppercase tracking-wider font-extralight text-center">{title}</h1>
           <ul className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {projets.map((projet, k) => (
               <li key={k} className="overflow-hidden bg-white rounded-lg shadow-xl">

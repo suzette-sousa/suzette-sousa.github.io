@@ -1,16 +1,3 @@
-.container {
-  min-height: calc(100vh - 14.5rem);
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  padding: 2rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
 .prezImg {
   width: 100%;
   transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);

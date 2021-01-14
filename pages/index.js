@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div class="container m-auto">
+        <div className="container m-auto">
           <div className="lg:flex justify-between items-center">
             <div className="lg:w-5/12 lg:p-0 p-7">
               <h1 className="text-5xl font-bold leading-tight mb-5 capitalize">Intégratrice Front-End</h1>
