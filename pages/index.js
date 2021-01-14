@@ -15,7 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         <div class="container m-auto">
           <div className="lg:flex justify-between items-center">
-            <div className="lg:w-6/12 lg:p-0 p-7">
+            <div className="lg:w-5/12 lg:p-0 p-7">
               <h1 className="text-5xl font-bold leading-tight mb-5 capitalize">Intégratrice Front-End</h1>
               <p className="text-2xl">
                 Ayant acquis une expérience certaine en intégration web, je suis actuellement en train de monter en compétences en développement javascript pour acquérir un niveau avancé et sur React également.
@@ -25,13 +25,13 @@ export default function Home() {
                 <Link href="/projets">
                   <a href="#" className="text-white rounded-full py-2 px-5 text-lg font-semibold bg-blue-700 hover:bg-blue-900 inline-block border bg-blue-900mr-3">Voir mes projets</a>
                 </Link>
-                <Link href="/projets">
+                <Link href="/cv">
                   <a href="#" className="my-8 mx-4 text-white rounded-full py-2 px-5 text-lg font-semibold bg-gray-500 hover:bg-gray-700 inline-block border bg-gray-500 mr-3">Voir mon CV</a>
                 </Link>
               </div>
             </div>
-            <div className="lg:w-5/12 order-2">
-              <img className={styles.prezImg} src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="" class="rounded" />
+            <div className="lg:w-6/12 order-2">
+              <img className={styles.prezImg} src="/img/computer.jpg" alt="" />
             </div>
           </div>
         </div>
