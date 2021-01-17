@@ -77,6 +77,12 @@ projets:
     thumbnail: img/calculatrice.png
     link: https://suzette-sousa.github.io/calculator-app/
     date: 09/12/2020
+  - date: 12/12/2020
+    name: Prévisualisateur Markdown
+    thumbnail: img/markdown.png
+    link: https://suzette-sousa.github.io/markdown-previewer/
+    categories:
+      - React
 ---
 Welcome to my portfolio.
 
