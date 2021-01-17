@@ -90,7 +90,7 @@ projets:
     categories:
       - React
       - API
-  - date: 14/12/2020
+  - date: 15/12/2020
     name: Todo List
     link: https://suzette-sousa.github.io/todo-list/
     thumbnail: img/todolist.png
