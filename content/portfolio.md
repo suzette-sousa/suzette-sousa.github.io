@@ -96,6 +96,13 @@ projets:
     thumbnail: img/todolist.png
     categories:
       - React
+  - date: 16/12/2020
+    name: Classement de films
+    thumbnail: img/films-cards.png
+    link: https://suzette-sousa.github.io/movies-cards/
+    categories:
+      - React
+      - Tailwind
 ---
 Welcome to my portfolio.
 
