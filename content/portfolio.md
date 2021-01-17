@@ -96,6 +96,7 @@ projets:
     thumbnail: img/todolist.png
     categories:
       - React
+      - Self Learning
   - date: 16/12/2020
     name: Classement de films
     thumbnail: img/films-cards.png
@@ -110,6 +111,7 @@ projets:
     categories:
       - Node.js
       - MongoDB
+      - Self Learning
 ---
 Welcome to my portfolio.
 
