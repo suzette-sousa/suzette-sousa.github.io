@@ -83,6 +83,13 @@ projets:
     link: https://suzette-sousa.github.io/markdown-previewer/
     categories:
       - React
+  - date: 14/12/2020
+    link: https://github.com/suzette-sousa/weather-forecast
+    name: Météo temps réel
+    thumbnail: img/meteo.png
+    categories:
+      - React
+      - API
 ---
 Welcome to my portfolio.
 
