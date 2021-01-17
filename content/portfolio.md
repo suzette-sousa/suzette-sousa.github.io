@@ -43,11 +43,17 @@ projets:
     thumbnail: naturadis.png
     altimg: Natura-dis
     link: https://www.natura-dis.com/
+    categories:
+      - Intégration
+      - Wordpress
   - name: Line Architecture
     description: null
     thumbnail: line-architecture.png
     altimg: Line Architecture
     link: http://www.bethgnies.com/
+    categories:
+      - Intégration
+      - Wordpress
 ---
 Welcome to my portfolio.
 
