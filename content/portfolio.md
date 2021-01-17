@@ -63,6 +63,11 @@ projets:
     categories:
       - Intégration
       - Wordpress
+  - name: Calculatrice
+    categories:
+      - React
+    thumbnail: img/calculatrice.png
+    link: https://suzette-sousa.github.io/calculator-app/
 ---
 Welcome to my portfolio.
 
