@@ -4,7 +4,7 @@ date: 2021-01-13T19:31:20.591Z
 projets:
   - name: Boaterfly
     description: ""
-    thumbnail: boaterfly.png
+    thumbnail: img/boaterfly.png
     altimg: Boaterfly
     link: /portfolio/boaterfly/index.html
     categories:
@@ -12,7 +12,7 @@ projets:
       - Bootstrap
   - name: A la carte Paris
     description: null
-    thumbnail: alacarteparis.png
+    thumbnail: img/alacarteparis.png
     altimg: A la carte Paris
     link: /portfolio/alacarteparis/index.html
     categories:
@@ -20,7 +20,7 @@ projets:
       - Intégration
   - name: Exclusive Martinique
     description: null
-    thumbnail: exclusivemartinique.png
+    thumbnail: img/exclusivemartinique.png
     altimg: Exclusive Martinique
     link: /portfolio/exclusivemartinique/index.html
     categories:
@@ -28,28 +28,28 @@ projets:
       - Bootstrap
   - name: Kbis
     description: null
-    thumbnail: kbis.png
+    thumbnail: img/kbis.png
     altimg: Kbis
     link: /portfolio/kbis-extrait/index.html
     categories:
       - Intégration
   - name: Little Travels
     description: null
-    thumbnail: littletravels.png
+    thumbnail: img/littletravels.png
     altimg: Little Travels
     link: /portfolio/littletravels/index.html
     categories:
       - Intégration
   - name: Mon Hébergement Insolite
     description: null
-    thumbnail: mhi.png
+    thumbnail: img/mhi.png
     altimg: Mon Hébergement Insolite
     link: /portfolio/mhi/index.html
     categories:
       - Intégration
   - name: Natura-dis
     description: null
-    thumbnail: naturadis.png
+    thumbnail: img/naturadis.png
     altimg: Natura-dis
     link: https://www.natura-dis.com/
     categories:
@@ -57,7 +57,7 @@ projets:
       - Wordpress
   - name: Line Architecture
     description: null
-    thumbnail: line-architecture.png
+    thumbnail: img/line-architecture.png
     altimg: Line Architecture
     link: http://www.bethgnies.com/
     categories:
