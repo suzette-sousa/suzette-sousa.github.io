@@ -10,7 +10,7 @@ projets:
     categories:
       - Intégration
       - Bootstrap
-    date: 2020-12-09T16:41:19.745Z
+    date: February 1, 2017 5:41 PM
   - name: A la carte Paris
     description: null
     thumbnail: img/alacarteparis.png
@@ -76,7 +76,7 @@ projets:
       - React
     thumbnail: img/calculatrice.png
     link: https://suzette-sousa.github.io/calculator-app/
-    date: 2020-12-09T16:41:20.714Z
+    date: December 9, 2020 5:41 PM
 ---
 Welcome to my portfolio.
 
