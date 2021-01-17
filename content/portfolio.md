@@ -23,21 +23,30 @@ projets:
     thumbnail: exclusivemartinique.png
     altimg: Exclusive Martinique
     link: /portfolio/exclusivemartinique/index.html
+    categories:
+      - Intégration
+      - Bootstrap
   - name: Kbis
     description: null
     thumbnail: kbis.png
     altimg: Kbis
     link: /portfolio/kbis-extrait/index.html
+    categories:
+      - Intégration
   - name: Little Travels
     description: null
     thumbnail: littletravels.png
     altimg: Little Travels
     link: /portfolio/littletravels/index.html
+    categories:
+      - Intégration
   - name: Mon Hébergement Insolite
     description: null
     thumbnail: mhi.png
     altimg: Mon Hébergement Insolite
     link: /portfolio/mhi/index.html
+    categories:
+      - Intégration
   - name: Natura-dis
     description: null
     thumbnail: naturadis.png
