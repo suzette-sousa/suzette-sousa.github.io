@@ -7,11 +7,17 @@ projets:
     thumbnail: boaterfly.png
     altimg: Boaterfly
     link: /portfolio/boaterfly/index.html
+    categories:
+      - Intégration
+      - Bootstrap
   - name: A la carte Paris
     description: null
     thumbnail: alacarteparis.png
     altimg: A la carte Paris
     link: /portfolio/alacarteparis/index.html
+    categories:
+      - Bootstrap
+      - Intégration
   - name: Exclusive Martinique
     description: null
     thumbnail: exclusivemartinique.png
