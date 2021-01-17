@@ -103,6 +103,13 @@ projets:
     categories:
       - React
       - Tailwind
+  - date: 28/12/2020
+    name: Bloc-notes
+    thumbnail: img/bloc-notes.png
+    link: https://app-notes-taking.herokuapp.com/
+    categories:
+      - Node.js
+      - MongoDB
 ---
 Welcome to my portfolio.
 
