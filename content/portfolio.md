@@ -76,7 +76,7 @@ projets:
       - React
     thumbnail: img/calculatrice.png
     link: https://suzette-sousa.github.io/calculator-app/
-    date: December 9, 2020 5:41 PM
+    date: 09/12/2020
 ---
 Welcome to my portfolio.
 
