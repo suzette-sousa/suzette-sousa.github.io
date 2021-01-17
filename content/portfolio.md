@@ -10,6 +10,7 @@ projets:
     categories:
       - Intégration
       - Bootstrap
+    date: 2020-12-09T16:41:19.745Z
   - name: A la carte Paris
     description: null
     thumbnail: img/alacarteparis.png
@@ -18,6 +19,7 @@ projets:
     categories:
       - Bootstrap
       - Intégration
+    date: 2021-01-17T16:41:19.987Z
   - name: Exclusive Martinique
     description: null
     thumbnail: img/exclusivemartinique.png
@@ -26,6 +28,7 @@ projets:
     categories:
       - Intégration
       - Bootstrap
+    date: 2021-01-17T16:41:20.189Z
   - name: Kbis
     description: null
     thumbnail: img/kbis.png
@@ -33,6 +36,7 @@ projets:
     link: /portfolio/kbis-extrait/index.html
     categories:
       - Intégration
+    date: 2021-01-17T16:41:20.335Z
   - name: Little Travels
     description: null
     thumbnail: img/littletravels.png
@@ -40,6 +44,7 @@ projets:
     link: /portfolio/littletravels/index.html
     categories:
       - Intégration
+    date: 2021-01-17T16:41:20.428Z
   - name: Mon Hébergement Insolite
     description: null
     thumbnail: img/mhi.png
@@ -47,6 +52,7 @@ projets:
     link: /portfolio/mhi/index.html
     categories:
       - Intégration
+    date: 2021-01-17T16:41:20.519Z
   - name: Natura-dis
     description: null
     thumbnail: img/naturadis.png
@@ -55,6 +61,7 @@ projets:
     categories:
       - Intégration
       - Wordpress
+    date: 2021-01-17T16:41:20.589Z
   - name: Line Architecture
     description: null
     thumbnail: img/line-architecture.png
@@ -63,11 +70,13 @@ projets:
     categories:
       - Intégration
       - Wordpress
+    date: 2021-01-17T16:41:20.657Z
   - name: Calculatrice
     categories:
       - React
     thumbnail: img/calculatrice.png
     link: https://suzette-sousa.github.io/calculator-app/
+    date: 2020-12-09T16:41:20.714Z
 ---
 Welcome to my portfolio.
 
