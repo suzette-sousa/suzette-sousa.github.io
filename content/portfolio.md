@@ -93,7 +93,7 @@ projets:
   - date: 14/12/2020
     name: Todo List
     link: https://suzette-sousa.github.io/todo-list/
-    thumbnail: img/capture-d’écran-2021-01-17-à-21.16.58.png
+    thumbnail: img/todolist.png
     categories:
       - React
 ---
