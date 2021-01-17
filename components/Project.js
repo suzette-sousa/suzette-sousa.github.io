@@ -27,9 +27,11 @@ const Project = () => {
                   {projet.description && <p className="p-4">{projet.description}</p>}
                 </a>
               </Link>
-              {projet.cat.map((e, j) => (
-                <div key={j}><button key={j}>{e}</button></div>
-              ))}
+              {projet.categories &&
+                projet.categories.map((e, j) => (
+                  <div key={j}><button key={j}>{e}</button></div>
+                ))
+              }
             </li>
           ))}
         </ul>

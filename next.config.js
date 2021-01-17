@@ -4,7 +4,8 @@ module.exports = {
     config.module.rules.push(
       {
         test: /\.md$/,
-        use: 'frontmatter-markdown-loader'
+        use: 'frontmatter-markdown-loader',
+        options: { mode: ['react-component'] }
       }
     )
 
