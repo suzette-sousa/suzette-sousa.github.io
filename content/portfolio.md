@@ -112,6 +112,13 @@ projets:
       - Node.js
       - MongoDB
       - Self Learning
+  - date: 06/01/2020
+    name: Drum machine
+    link: https://suzette-sousa.github.io/drum-machine/
+    thumbnail: img/drum-machine.png
+    categories:
+      - React
+      - Tailwind
 ---
 Welcome to my portfolio.
 
