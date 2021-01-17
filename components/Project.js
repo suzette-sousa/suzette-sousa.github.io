@@ -30,7 +30,10 @@ const Project = () => {
           ))}
         </div>
         <ul className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {projets.filter(projet => categoryName!== allDisplayWording ? projet.categories.includes(categoryName): projet).map((projet, k) => (
+          {projets
+            .sort((a, b) => a.date > b.date ? 1 : -1)
+            .filter(projet => categoryName !== allDisplayWording ? projet.categories.includes(categoryName): projet)
+            .map((projet, k) => (
             <li key={k} className="overflow-hidden bg-white rounded-lg shadow-xl">
               <Link href={`${projet.link}`}>
                 <a>

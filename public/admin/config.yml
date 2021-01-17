@@ -51,6 +51,7 @@ collections:
             - { label: "Description", name: "description", widget: "text", required: false}
             - { label: "Image", name: "thumbnail", alt: "alt", widget: "image"}
             - { label: "Link", name: "link", url: "/", widget: "string"}
+            - { label: "Date", name: "date", widget: "datetime", default: "01/01/2013", date_format: "DD/MM/YYYY", time_format: false, format: "DD/MM/YYYY" }
             - name: categories
               widget: list
               field: {
