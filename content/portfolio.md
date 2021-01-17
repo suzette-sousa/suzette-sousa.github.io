@@ -10,7 +10,7 @@ projets:
     categories:
       - Intégration
       - Bootstrap
-    date: February 1, 2017 5:41 PM
+    date: 03/09/2017
   - name: A la carte Paris
     description: null
     thumbnail: img/alacarteparis.png
@@ -19,7 +19,7 @@ projets:
     categories:
       - Bootstrap
       - Intégration
-    date: 2021-01-17T16:41:19.987Z
+    date: 03/09/2017
   - name: Exclusive Martinique
     description: null
     thumbnail: img/exclusivemartinique.png
@@ -28,7 +28,7 @@ projets:
     categories:
       - Intégration
       - Bootstrap
-    date: 2021-01-17T16:41:20.189Z
+    date: 03/09/2017
   - name: Kbis
     description: null
     thumbnail: img/kbis.png
@@ -36,7 +36,7 @@ projets:
     link: /portfolio/kbis-extrait/index.html
     categories:
       - Intégration
-    date: 2021-01-17T16:41:20.335Z
+    date: 03/09/2018
   - name: Little Travels
     description: null
     thumbnail: img/littletravels.png
@@ -44,7 +44,7 @@ projets:
     link: /portfolio/littletravels/index.html
     categories:
       - Intégration
-    date: 2021-01-17T16:41:20.428Z
+    date: 03/09/2017
   - name: Mon Hébergement Insolite
     description: null
     thumbnail: img/mhi.png
@@ -52,7 +52,7 @@ projets:
     link: /portfolio/mhi/index.html
     categories:
       - Intégration
-    date: 2021-01-17T16:41:20.519Z
+    date: 03/09/2017
   - name: Natura-dis
     description: null
     thumbnail: img/naturadis.png
@@ -61,7 +61,7 @@ projets:
     categories:
       - Intégration
       - Wordpress
-    date: 2021-01-17T16:41:20.589Z
+    date: 03/09/2017
   - name: Line Architecture
     description: null
     thumbnail: img/line-architecture.png
@@ -70,7 +70,7 @@ projets:
     categories:
       - Intégration
       - Wordpress
-    date: 2021-01-17T16:41:20.657Z
+    date: 03/09/2017
   - name: Calculatrice
     categories:
       - React
