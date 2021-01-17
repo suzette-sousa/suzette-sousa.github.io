@@ -4,16 +4,9 @@ import Link from './Link'
 const Project = () => {
   let { title, projets, cat } = attributes;
 
-
-  console.log(projets[0].cat[0], "dgdfvfd")
-
   return (
     <>
       <button className="bg-black text-white">Afficher tout</button>
-
-
-
-
 
       <article>
         <h1 className="mb-6 text-4xl uppercase tracking-wider font-extralight text-center">{title}</h1>
