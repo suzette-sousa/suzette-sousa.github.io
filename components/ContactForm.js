@@ -1,7 +1,12 @@
+import React from 'react'
 import { useState, useEffect } from 'react';
+import Recaptcha from 'react-google-recaptcha'
+const RECAPTCHA_KEY = '6Lfw6TwaAAAAAKAkiqzxo90xCk-YMVOA3cp1UdJp'
 
 const ContactForm = () => {
   const [success, setSuccess] = useState(false);
+  const recaptchaRef = React.createRef();
+
   useEffect(() => {
     if ( window.location.search.includes('success=true') ) {
       setSuccess(true);
@@ -17,7 +22,12 @@ const ContactForm = () => {
         </p>
         <p><label>Votre e-mail * : <input required type="email" name="email" /></label></p>
         <p><label>Votre message: <textarea required name="message" rows="4"></textarea></label></p>
-        <div data-netlify-recaptcha="true"></div>
+        <Recaptcha
+          ref={recaptchaRef}
+          sitekey={RECAPTCHA_KEY}
+          size="normal"
+          id="recaptcha-google"
+        />
         <input type="hidden" name="form-name" value="contactForm" />
         <p><button type="submit">Envoyer</button></p>
       </form>
