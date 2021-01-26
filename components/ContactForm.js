@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
     <>
-      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <p class="hidden">
           <label id="contact-form-bot-label"
               >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
