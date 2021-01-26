@@ -9,6 +9,7 @@ const ContactForm = () => {
         </p>
         <p><label>Votre e-mail * : <input required type="email" name="email" /></label></p>
         <p><label>Votre message: <textarea required name="message" rows="4"></textarea></label></p>
+        <div data-netlify-recaptcha="true" class="form-row"></div>
         <p><button type="submit">Envoyer</button></p>
       </form>
     </>
