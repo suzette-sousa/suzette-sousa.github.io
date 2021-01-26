@@ -10,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Intégratrice web sénior. Intégration et développement front-end, création ou refonte de site internet, référencement, bonnes pratiques, accessibilité, performances" />
+        <script src="https://www.google.com/recaptcha/api.js"></script>
       </Head>
 
       <main className={styles.main}>
