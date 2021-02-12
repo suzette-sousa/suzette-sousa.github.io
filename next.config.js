@@ -1,4 +1,6 @@
 const path = require('path');
+const withVideos = require('next-videos')
+
 module.exports = {
   webpack: (config) => {
     config.module.rules.push(

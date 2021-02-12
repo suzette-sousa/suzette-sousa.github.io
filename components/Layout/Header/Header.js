@@ -4,7 +4,7 @@ import Link from '../../Link'
 class Header extends Component {
   render () {
     return (
-      <header className="sticky top-0 mb-4 bg-white shadow-sm">
+      <header className="sticky z-50 top-0 mb-4 bg-white shadow-sm">
         <nav className="flex flex-wrap justify-between items-center container mx-auto text-center">
           <Link href="/">
             <a href="/" className="link p-4 text-4xl tracking-wider font-extralight">Suzette Sousa</a>

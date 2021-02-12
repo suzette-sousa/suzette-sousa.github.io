@@ -1,8 +1,17 @@
+import React, { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Home() {
+  const videoRef = useRef();
+
+  // useEffect(() => {
+  //     setTimeout(()=>{
+  //         videoRef.current.play()
+  //     },5000)
+  // }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,8 +21,19 @@ export default function Home() {
         <meta name="description" content="Intégratrice web sénior. Intégration et développement front-end, création ou refonte de site internet, référencement, bonnes pratiques, accessibilité, performances" />
       </Head>
 
-      <main className={styles.main}>
-        <div className="container m-auto">
+      {/* <video ref={videoRef} controls width="250"
+            loop
+            muted
+            >
+              <source src="/vid/laptop.mp4" type="video/mp4"/>
+       </video> */}
+
+      <div className={styles.fullscreen_bg}>
+        <video ref={videoRef} controls autoPlay muted loop className={styles.fullscreen_bg_video}>
+          <source src="/vid/program.mp4" type="video/mp4"/>
+        </video>
+      </div>
+        <div className="container m-auto relative z-1 text-white">
           <div className="lg:flex justify-between items-center">
             <div className="lg:w-5/12 lg:p-0 p-7">
               <h1 className="text-5xl font-bold leading-tight mb-5 capitalize">Intégratrice Front-End</h1>
@@ -30,12 +50,11 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="lg:w-6/12 order-2">
+            {/* <div className="lg:w-6/12 order-2">
               <img className={styles.prezImg} src="/img/computer.jpg" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
-      </main>
     </div>
   )
 }
